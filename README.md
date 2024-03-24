@@ -7,7 +7,6 @@ This project uses YOLO v4 deep learning model to identify cars in images and cou
 
 Before running the project, you need to install Python and OpenCV.
 
-```bash
 pip install opencv-python
 
 ## Usage
