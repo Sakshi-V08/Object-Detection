@@ -43,13 +43,13 @@ To count all the cars in the folder images, we need to create a loop that allows
 
 import glob
 ...
-# Load images from a folder
+### Load images from a folder
 images_folder = glob.glob("images/*.jpg")
 vehicles_folder_count = 0
 
 We can rewrite the second part of the Count Vehicles like this:
 
-# Loop through all the images
+### Loop through all the images
 for img_path in images_folder:
     print("Img path", img_path)
     img = cv2.imread(img_path)
