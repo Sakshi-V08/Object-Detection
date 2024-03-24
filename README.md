@@ -67,7 +67,12 @@ for img_path in images_folder:
 
         cv2.putText(img, "Vehicles: " + str(vehicle_count), (20, 50), 0, 2, (100, 200, 0), 3)
 
+
     cv2.imshow("Cars", img)
     cv2.waitKey(1)
 
 print("Total current count", vehicles_folder_count)
+
+
+## Screenshot
+![Screenshot 2024-03-24 214001](https://github.com/Sakshi-V08/Object-Detection/assets/122119205/1c854228-e632-4da4-a5d8-f2bb0f8ef898)
