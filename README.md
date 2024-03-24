@@ -70,8 +70,8 @@ for img_path in images_folder:
 
     cv2.imshow("Cars", img)
     cv2.waitKey(1)
-
-print("Total current count", vehicles_folder_count)
+    
+    print("Total current count", vehicles_folder_count)
 
 
 ## Screenshot
