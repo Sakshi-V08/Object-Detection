@@ -54,7 +54,6 @@ We can rewrite the second part of the Count Vehicles like this:
    for img_path in images_folder:
        print("Img path", img_path)
        img = cv2.imread(img_path)
-
        vehicle_boxes = vd.detect_vehicles(img)
        vehicle_count = len(vehicle_boxes)
 
@@ -70,8 +69,7 @@ We can rewrite the second part of the Count Vehicles like this:
 
 
        cv2.imshow("Cars", img)
-       cv2.waitKey(1)
-    
+       cv2.waitKey(1)    
    print("Total current count", vehicles_folder_count)
 
 
